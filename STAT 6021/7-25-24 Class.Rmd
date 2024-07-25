@@ -49,4 +49,11 @@ model3 <- lm(Profit~R.D.Spend + Marketing.Spend, data = Startups, method = "step
 #model 1 has all three predictors
 aic<- stepAIC(model1, direction = "both")
 ```
-We want the model with the smalles AIC
+We want the model with the smallest AIC
+
+# Partial Effect Plots
+added variable plots (avPlot)
+```{r}
+avPlot(model1)
+```
+
