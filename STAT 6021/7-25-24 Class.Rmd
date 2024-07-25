@@ -4,6 +4,8 @@ author: "Courtney Hodge"
 date: "2024-07-25"
 output: html_document
 ---
+
+# Inference on the linear model
 ```{r}
 library(tidyverse)
 ```
@@ -54,6 +56,12 @@ We want the model with the smallest AIC
 # Partial Effect Plots
 added variable plots (avPlot)
 ```{r}
-avPlot(model1)
+avPlots(model1)
 ```
+> The partial effect plots shows the slope of the two residuals plot IF R.D.Spend and Asministration are both held fixed.
 
+> The negative slope plot says every time Administration slope goes up 1 dollar, the profit decreases. 
+
+> The last graph says that every time the marketing.spend plot goes up, the profit also increases. 
+
+> The point of this plot is to show us the effect of each predictor on the response variable if other predictors are held fixed.
