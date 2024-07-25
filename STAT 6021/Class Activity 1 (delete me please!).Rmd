@@ -1,0 +1,22 @@
+---
+title: "Class Activity 1"
+author: "Courtney Hodge"
+date: "2024-07-15"
+output: html_document
+---
+
+# Question 1
+```{r}
+library(ggplot2)
+```
+
+```{r}
+View(mtcars)
+```
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = cyl)) + geom_jitter()
+```
+
+# Reference
+<https://www.nytimes.com/interactive/2021/us/covid-cases.html>
