@@ -6,7 +6,7 @@ output: html_document
 ---
 Call file.choose() to find the directory of a file on your machine
 ```{r}
-data <- read.csv("C:\\Users\\hodge\\Downloads\\ClassData.csv")
+Classdata <- read.csv("C:\\Users\\hodge\\Downloads\\ClassData.csv")
 ```
 
 ```{r}
